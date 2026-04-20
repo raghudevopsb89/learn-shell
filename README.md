@@ -1,3 +1,3 @@
 # learn-shell
 
-Bash Shell
+Bash Shell Scripting
