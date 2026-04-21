@@ -1,3 +1,4 @@
+echo Log file Output : /tmp/roboshop.log
 echo -e "\e[35m >>>>>>>>>>>>> Install Nginx <<<<<<<<<<<<<<< \e[0m"
 dnf install -y nginx &>>/tmp/roboshop.log
 
