@@ -20,6 +20,7 @@ echo -e "\e[35m >>>>>>>>>>>>> Extract App Code <<<<<<<<<<<<<<< \e[0m"
 unzip /tmp/frontend.zip
 
 echo -e "\e[35m >>>>>>>>>>>>> Install App Dependencies & Build Html Code <<<<<<<<<<<<<<< \e[0m"
+npm cache clean --force
 npm install
 npm run build
 
