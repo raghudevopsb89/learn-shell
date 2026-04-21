@@ -1,4 +1,4 @@
-echo -e "\e[35m Install Nginx \[0m"
+echo -e "\e[35m Install Nginx \e[0m"
 dnf install -y nginx
 
 cp nginx.conf /etc/nginx/nginx.conf
