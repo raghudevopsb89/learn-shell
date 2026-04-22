@@ -1,5 +1,5 @@
 log_file=/tmp/roboshop.log
-hs="\e[35m >>>>>>>>>>>>>"
+hs="\e[33m >>>>>>>>>>>>>"
 he="<<<<<<<<<<<<<<< \e[0m"
 component_name=frontend
 
