@@ -1,8 +1,8 @@
 sample1() {
-  echo from sample1 function
+  echo Hello from sample1 function
 }
 
 sample2() {
-  echo from sample2 function
+  echo Hello from sample2 function
 }
 
