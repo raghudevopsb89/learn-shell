@@ -22,3 +22,11 @@ echo Second Argument - $2
 # echo Nth Argument - ${n} # beyond $9, From $10, to get the value we should use ${10}
 echo All agguments - $*
 echo Number of Arguments - $#
+
+# Command substitution
+date=$(date)
+echo date - $date
+
+# Arithmetic Substitution
+sum=$((2+5))
+echo sum of 2+5 is $sum
