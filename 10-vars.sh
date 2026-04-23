@@ -7,3 +7,6 @@ echo x from left side of script - $x
 # bash 10-vars.sh
 echo y from before script declared - $y
 
+# bash 10-vars.sh 300
+echo First argument to script - $1
+
